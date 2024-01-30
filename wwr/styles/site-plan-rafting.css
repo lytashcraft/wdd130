@@ -15,6 +15,8 @@ body {
     --heading-font: 'Rock Salt', serif;
     --paragraph-font: 'Arial', serif;
     
+
+    --paragraph-background-color:var(--accent1-color);
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--accent2-color);
     --nav-hover-link-color:var(--accent2-color);
@@ -27,6 +29,14 @@ body {
   max-width: 680px;
   margin: 0 auto;
   padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,14 +49,83 @@ h2 {
 
 }
 
+hr {
+    height: 3px;
+    margin: 40px;
+    background: var(--primary-color);
+}
+
 header {
     padding: 20px;
+    text-align: center;
     color:#a3937e ;
+    background-color: var(--primary-color);
+}
+
+header > h1, header > h2 {
+    color: var(--secundary-color);
 }
 
 p {
+    font-family: Arial, Verdana, sans-serif;
     padding: 25px;
+    color: #2d1d13;
 }
+
+.colors {
+    width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+    background-color: var(--secundary-color);
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+
+.primary {
+    background-color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.accent1 {
+    background-color: var(--accent1-color);
+  }
+.accent2{
+    background-color: var(--accent2-color);
+  }
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
 
 nav {
     background-color:#fdfdfc ;
