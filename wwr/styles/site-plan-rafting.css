@@ -24,6 +24,8 @@ body {
 
 
 }
+
+
 body {
   font-family: 'Arial, Verdana, sans-serif';
   max-width: 680px;
@@ -33,10 +35,10 @@ body {
   text-align: center;
 }
 
-img {
+.header {
     display: block;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 150px;
 }
 
 h1, h2, h3, h4, h5, h6 {
