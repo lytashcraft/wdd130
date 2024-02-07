@@ -18,14 +18,19 @@ nav {
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 10px;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
 
 h1 {
     color: rgb(255, 5, 84);
-    padding: 1rem;
+    padding: .3rem;
+    border-bottom: 2px solid  rgb(255, 5, 84);
+    font-size: auto;
 }
 
 img {
@@ -39,6 +44,38 @@ p {
     padding: 10px;
 }   
 
+.container {
+    
+}
+
+header, .grid, footer {
+    max-width: 860px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas com largura igual */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+header {
+
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
 main img {
     /* I don't know what to declare here, but I changed the color, tho */
@@ -93,9 +130,4 @@ aside {
 
 .indent {
     padding-left: 2rem;
-}
-
-header, footer {
-    max-width: 840px;
-    margin: 0 auto;
 }
