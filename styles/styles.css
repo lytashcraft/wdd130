@@ -1,6 +1,13 @@
 
 /* This is a comment*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
 
 nav {
     background-color: rgb(251, 61, 96);
@@ -19,6 +26,10 @@ h1 {
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 10px;
+}
+
+.box {
+
 }
 
 main img {
@@ -56,10 +67,11 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside h2{
-    position: central;
+    position: relative;
     top: 400px;
     left: 150px;
 }
