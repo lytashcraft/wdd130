@@ -71,9 +71,9 @@ aside {
 }
 
 aside h2{
-    position: relative;
     top: 400px;
     left: 150px;
+    position: relative;
 }
 
 aside img {
