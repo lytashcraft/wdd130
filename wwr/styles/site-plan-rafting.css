@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+:root {
+    --primary-color: #FDFDFC;
+    --secondary-color: #D6D2C9;
+    --accent1-color: #CAA491;
+    --accent2-color: #43BE7D;
+    --accent3-color: #40271A;
+
+    --heading-font: 'Rock Salt', serif;
+    --text-font: 'Arial', serif;
+    
+
+    --paragraph-background-color:var(--secondary-color);
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--primary-color);
+}
+
+
+body {
+    font-family: 'Arial, Verdana, sans-serif';
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+h1, h3, h5, h6 {
+    font-family: Arial, Verdana, sans-serif;
+    color:#2d1d13
+}
+
+h2 { 
+    font-family: 'Rock Salt','Bradley Hand', sans-serif;
+    color: #43BE7D;
+}
+
+h4 {
+    height: 3px;
+    margin: 40px;
+    background: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Verdana, sans-serif;
+    padding: 25px;
+    color: #2d1d13;
+}
+
+/* Class Selectors */
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    background-color:#fdfdfc ;
+    font-size: 1.2rem;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color:#a3937e ;
+    text-decoration: none;
+    padding: 1rem;
+}
+  nav a:link, nav a:visited {
+    color:#3d7e55;
+}
+
+nav a:hover {
+    color:#a3937e;
+    background-color: #fdfdfc; 
+}
