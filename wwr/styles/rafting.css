@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+:root {
+    --primary-color: #FDFDFC;
+    --secondary-color: #D6D2C9;
+    --accent1-color: #CAA491;
+    --accent2-color: #43BE7D;
+    --accent3-color: #40271A;
+
+    --heading-font: 'Rock Salt', serif;
+    --text-font: 'Arial', serif;
+    
+
+    --paragraph-background-color:var(--secondary-color);
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--primary-color);
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Arial, Verdana, sans-serif';
+    background-color: var(--secondary-color);
+    max-width: 1200px; /* Limit width of the page*/
+    margin: 0 auto; /*Center the page*/
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h3, h5, h6 {
+    margin: 0;
+    font-family: Arial, Verdana, sans-serif;
+    color:#2d1d13
+    
+}
+
+h2 { 
+    font-family: 'Rock Salt','Bradley Hand', sans-serif;
+    color: #43BE7D;
+}
+
+h4 {
+    height: 3px;
+    margin: 40px;
+    background: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+p {
+    font-family: Arial, Verdana, sans-serif;
+    padding: 25px;
+    color: var(--accent3-color);
+    line-height: 1.6;
+}
+
+/* Hero image */
+
+.hero {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+h1 {
+    position: absolute; 
+    top: 20%;
+    left: 30%;
+    font-size: 3em;
+    color: var(--accent2-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    position: absolute;
+    bottom: 10px;
+    right: 10%;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    width: 250px;
+}
+
+article img {
+    float: left;
+    margin-right: 2px;
+    width: 10px;
+}
+
+/* Class Selectors */
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    background-color:#fdfdfc ;
+    font-size: 1.2rem;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color:#a3937e ;
+    text-decoration: none;
+    padding: 1rem;
+}
+  nav a:link, nav a:visited {
+    color:#3d7e55;
+}
+
+nav a:hover {
+    color:#a3937e;
+    background-color: #fdfdfc; 
+}
+
+footer {
+    text-align: center;
+    }
+
+.footer-sociallinks a {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+
+.sociallinks img {
+    width: 30px;
+}
