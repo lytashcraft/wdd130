@@ -7,6 +7,7 @@
     --accent1-color: #CAA491;
     --accent2-color: #43BE7D;
     --accent3-color: #40271A;
+    --accent1-color-transparent: rgba(255, 255, 255, 0.7);
 
     --heading-font: 'Rock Salt', serif;
     --text-font: 'Arial', serif;
@@ -81,15 +82,17 @@ h1 {
     top: 20%;
     left: 30%;
     font-size: 3em;
-    color: var(--accent2-color);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: var(--accent3-color);
+    background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de opacidade */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+   
 }
 
 article {
     position: absolute;
-    bottom: 10px;
-    right: 10%;
-    background-color: var(--primary-color);
+    bottom: 1px;
+    left: 65%;
+    background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de opacidade */
     border-radius: 8px;
     width: 250px;
 }
