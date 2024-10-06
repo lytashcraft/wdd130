@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --primary-color: #FDFDFC;
@@ -11,23 +10,21 @@
     --accent1-color-transparent: rgba(255, 255, 255, 0.7);
 
     --heading-font: 'Rock Salt', serif;
-    --text-font: 'Poppins', 'Arial', serif;
-    
+    --text-font: 'Poppins', Arial, serif;
 
-    --paragraph-background-color:var(--secondary-color);
-    --nav-background-color:var(--primary-color);
-    --nav-link-color:var(--accent2-color);
-    --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color:var(--primary-color);
+    --paragraph-background-color: var(--secondary-color);
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--accent2-color);
+    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-background-color: var(--primary-color);
 }
-
 
 body {
     margin: 0;
-    font-family: 'Arial, Verdana, sans-serif';
+    font-family: Arial, Verdana, sans-serif;
     background-color: var(--secondary-color);
-    max-width: 1200px; /* Limit width of the page*/
-    margin: 0 auto; /*Center the page*/
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header {
@@ -40,13 +37,12 @@ body {
 
 h1, h3, h5, h6 {
     margin: 0;
-    font-family: 'Poppins', 'Arial', serif;
-    color:#2d1d13
-    
+    font-family: 'Poppins', Arial, serif;
+    color: #2d1d13;
 }
 
 h2 { 
-    font-family: 'Rock Salt','Bradley Hand', sans-serif;
+    font-family: 'Rock Salt', sans-serif;
     color: #43BE7D;
 }
 
@@ -58,19 +54,19 @@ h4 {
 }
 
 p {
-    font-family: 'Poppins', 'Arial', serif;
+    font-family: 'Poppins', Arial, serif;
     padding: 25px;
     color: var(--accent3-color);
     line-height: 1.6;
 }
 
 /* Hero image */
-
 .hero {
     position: relative;
     height: 400px;
     overflow: hidden;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -84,16 +80,15 @@ h1 {
     left: 30%;
     font-size: 3em;
     color: var(--accent3-color);
-    background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de opacidade */
+    background-color: rgba(255, 255, 255, 0.7);
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-   
 }
 
 article {
     position: absolute;
     bottom: 1px;
     left: 65%;
-    background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de opacidade */
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
     width: 250px;
 }
@@ -104,8 +99,7 @@ article img {
     width: 10px;
 }
 
-/* Class Selectors */
-
+/* Navigation */
 nav {
     background-color: var(--nav-background-color);
     line-height: 3em;
@@ -113,37 +107,29 @@ nav {
     font-size: 1.2em;
     list-style-type: none;
     display: flex;
-    background-color:#fdfdfc ;
     font-size: 1.2rem;
 }
+
 nav a {
-    padding:1em;
+    padding: 1rem;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
     display: block;
-    color:#a3937e ;
-    text-decoration: none;
-    padding: 1rem;
+    color: #a3937e;
 }
-  nav a:link, nav a:visited {
-    color:#3d7e55;
+
+nav a:link, nav a:visited {
+    color: #3d7e55;
 }
 
 nav a:hover {
-    color:#a3937e;
-    background-color: #fdfdfc; 
+    color: #a3937e;
+    background-color: var(--primary-color);
 }
 
 footer {
     text-align: center;
-    }
-
-.footer-sociallinks a {
-    display: inline-block;
-    margin-left: 10px;
-    text-decoration: none;
-  }
+}
 
 .sociallinks img {
     width: 30px;
