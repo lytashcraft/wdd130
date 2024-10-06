@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 :root {
@@ -10,7 +11,7 @@
     --accent1-color-transparent: rgba(255, 255, 255, 0.7);
 
     --heading-font: 'Rock Salt', serif;
-    --text-font: 'Arial', serif;
+    --text-font: 'Poppins', 'Arial', serif;
     
 
     --paragraph-background-color:var(--secondary-color);
@@ -39,7 +40,7 @@ body {
 
 h1, h3, h5, h6 {
     margin: 0;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: 'Poppins', 'Arial', serif;
     color:#2d1d13
     
 }
@@ -57,7 +58,7 @@ h4 {
 }
 
 p {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: 'Poppins', 'Arial', serif;
     padding: 25px;
     color: var(--accent3-color);
     line-height: 1.6;
