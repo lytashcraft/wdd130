@@ -158,6 +158,27 @@ nav a:hover {
 }
 
 
+.adventure-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.adventure-gallery figure {
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 250px;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
 footer {
     background-color: var(--primary-color);
     padding: 20px 0;
