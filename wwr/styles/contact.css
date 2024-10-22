@@ -55,6 +55,7 @@ header {
     transform: scale(1.05);
 }
 
+
 h1, h3, h5, h6 {
     margin: 0;
     font-family: 'Poppins', Arial, serif;
@@ -73,12 +74,6 @@ h4 {
     color: var(--accent2-color);
 }
 
-p {
-    font-family: 'Poppins', Arial, serif;
-    padding: 10px;
-    color: var(--accent3-color);
-    line-height: 1.6;
-}
 
 .hero {
     position: relative;
@@ -95,14 +90,17 @@ p {
 }
 
 h1 {
-    position: absolute;
+    position: absolute; 
     align-items: center;
-    top: 10%;
+    top: 20%;
     left: 30%;
     font-size: 3em;
     color: var(--accent3-color);
+    /* background-color: rgba(255, 255, 255, 0.7); */
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
     border-bottom: 2px solid #40271A;
+    /* padding-bottom: 10px; */
+    /* border-radius: 8px; */
 }
 
 article {
@@ -125,10 +123,6 @@ article img {
 /* menu */
 
 nav {
-	text-align: right;
-}
-
-.navigation {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
@@ -136,14 +130,9 @@ nav {
     border-radius: 8px; 
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    list-style: none;
 }
 
-.navigation li {
-	flex: 1 1 100%;
-}
-
-.navigation a {
+nav a {
     padding: 0.5rem 1.5rem;
     text-decoration: none;
     font-size: 1.2em;
@@ -156,11 +145,11 @@ nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
-.navigation a:hover {   
+nav a:hover {
     color: var(--accent3-color);
-    background-color: var(--accent1-color);
-    font-weight: 700;
+    background-color: var(--accent1-color); 
 }
+
 
 .adventure-gallery {
     display: flex;
@@ -182,6 +171,7 @@ nav a:link, nav a:visited {
     border-radius: 5px;
 }
 
+
 footer {
     background-color: var(--primary-color);
     padding: 20px 0;
@@ -189,7 +179,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -198,9 +188,7 @@ footer {
 
 .sociallinks {
     display: flex;
-    justify-content: left;
     gap: 10px;
-    padding: 0 1550px;
 }
 
 .sociallinks img {
