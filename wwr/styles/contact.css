@@ -194,6 +194,53 @@ nav a {
     height: auto;
 }
 
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 50px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: var(--accent2-color);
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Diminuindo o padding para reduzir o tamanho */
+    border-radius: 4px;
+    font-size: 14px; /* Diminuindo o tamanho da fonte */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto; /* Mudando para auto para evitar que o botão ocupe toda a largura */
+    display: block; /* Tornando o botão um bloco */
+    margin: 0 auto; /* Centralizando o botão */
+}
+
+.submit-button:hover {
+    background-color: #28a745;
+}
 
 /* rodape */
 
