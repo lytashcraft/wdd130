@@ -145,7 +145,14 @@ nav a {
     color: var(--nav-link-color);
 } */
 
- 
+.map iframe {
+    width: 100%; /* Faz o iframe ocupar toda a largura do contêiner */
+    height: 450px; /* Define a altura do iframe */
+    border: 0; /* Remove a borda padrão do iframe */
+    border-radius: 8px; /* Para bordas suaves */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Para dar uma leve sombra ao iframe */
+}
+
 
 /* galeria */
 
