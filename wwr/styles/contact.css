@@ -141,15 +141,13 @@ nav a {
     transition: background-color 0.3s, color 0.3s; 
 }
 
-nav a:link, nav a:visited {
+/* nav a:link, nav a:visited {
     color: var(--nav-link-color);
-}
+} */
 
-nav a:hover {
-    color: var(--accent3-color);
-    background-color: var(--accent1-color); 
-}
+ 
 
+/* galeria */
 
 .adventure-gallery {
     display: flex;
@@ -171,6 +169,26 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.profile {
+    text-align: center;
+    margin: 10px;
+}
+
+.profile img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* rodape */
 
 footer {
     background-color: var(--primary-color);
@@ -181,6 +199,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
