@@ -142,20 +142,18 @@ nav a {
     transition: background-color 0.3s, color 0.3s; 
 }
 
-/* nav a:link, nav a:visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
-} */
-
-.map iframe {
-    width: 50%; /* Faz o iframe ocupar toda a largura do contêiner */
-    height: 450px; /* Define a altura do iframe */
-    border: 0; /* Remove a borda padrão do iframe */
-    border-radius: 8px; /* Para bordas suaves */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Para dar uma leve sombra ao iframe */
 }
 
+.map iframe {
+    width: 50%;
+    height: 450px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
 
-/* galeria */
 
 .adventure-gallery {
     display: flex;
@@ -240,21 +238,20 @@ legend {
     background-color: var(--accent2-color);
     color: white;
     border: none;
-    padding: 8px 16px; /* Diminuindo o padding para reduzir o tamanho */
+    padding: 8px 16px;
     border-radius: 4px;
-    font-size: 14px; /* Diminuindo o tamanho da fonte */
+    font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: auto; /* Mudando para auto para evitar que o botão ocupe toda a largura */
-    display: block; /* Tornando o botão um bloco */
-    margin: 0 auto; /* Centralizando o botão */
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .submit-button:hover {
     background-color: #28a745;
 }
 
-/* rodape */
 
 footer {
     background-color: var(--primary-color);
