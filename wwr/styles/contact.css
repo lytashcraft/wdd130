@@ -55,16 +55,15 @@ header {
     transform: scale(1.05);
 }
 
-
 h1, h3, h5, h6 {
     margin: 0;
-    font-family: 'Poppins', Arial, serif;
+    font-family: var(--text-font);
     color: #2d1d13;
 }
 
 h2 {
-    font-family: 'Rock Salt', sans-serif;
-    color: #43BE7D;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
     text-align: center;
 }
 
@@ -74,7 +73,6 @@ h4 {
     background: var(--primary-color);
     color: var(--accent2-color);
 }
-
 
 .hero {
     position: relative;
@@ -92,16 +90,12 @@ h4 {
 
 h1 {
     position: absolute; 
-    align-items: center;
     top: 20%;
     left: 30%;
     font-size: 3em;
     color: var(--accent3-color);
-    /* background-color: rgba(255, 255, 255, 0.7); */
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
-    border-bottom: 2px solid #40271A;
-    /* padding-bottom: 10px; */
-    /* border-radius: 8px; */
+    border-bottom: 2px solid var(--accent3-color);
 }
 
 article {
@@ -120,9 +114,7 @@ article img {
     border-radius: 8px;
 }
 
-
-/* menu */
-
+/* Menu */
 nav {
     background-color: var(--primary-color);
     display: flex;
@@ -146,15 +138,16 @@ nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
+/* Map Styling */
 .map iframe {
-    width: 50%;
+    width: 100%;
     height: 450px;
     border: 0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-
+/* Adventure Gallery */
 .adventure-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +168,7 @@ nav a:link, nav a:visited {
     border-radius: 5px;
 }
 
+/* Team Section */
 .team-container {
     display: flex;
     justify-content: space-around;
@@ -193,7 +187,7 @@ nav a:link, nav a:visited {
     height: auto;
 }
 
-
+/* Form Styling */
 .form-container {
     background: white;
     padding: 20px;
@@ -213,7 +207,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 40%;
+    width: 100%;
     padding: 8px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -221,7 +215,7 @@ textarea {
 }
 
 textarea {
-    height: 50px;
+    height: 150px;
 }
 
 fieldset {
@@ -252,7 +246,7 @@ legend {
     background-color: #28a745;
 }
 
-
+/* Footer */
 footer {
     background-color: var(--primary-color);
     padding: 20px 0;
@@ -275,4 +269,3 @@ footer {
 .sociallinks img {
     width: 30px;
 }
-
