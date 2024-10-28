@@ -98,10 +98,10 @@ p {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza o artigo horizontal e verticalmente */
+    transform: translate(-50%, -50%);
     width: 50%;
     max-width: 900px;
-    background-color: var(--accent1-color-transparent); /*mudar a cor, se desejar */
+    background-color: var(--accent1-color-transparent);
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -110,7 +110,7 @@ p {
 }
 
 .hero h1 article {
-    position: absolute; /*testar*/
+    position: absolute; 
     
 }
 
@@ -131,6 +131,10 @@ h1 {
     border-bottom: 2px solid #40271A;
 }
 
+.text-center {
+    text-align: center;
+}
+
 article {
     position: absolute;
     bottom: 1px;
@@ -149,7 +153,12 @@ article img {
 
 
 /* Menu */
+
 nav {
+	text-align: right;
+}
+
+.navigation {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
@@ -157,9 +166,14 @@ nav {
     border-radius: 8px; 
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    list-style: none;
 }
 
-nav a {
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
     padding: 0.5rem 1.5rem;
     text-decoration: none;
     font-size: 1.2em;
@@ -171,6 +185,13 @@ nav a {
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
+
+.navigation a:hover {   
+    color: var(--accent3-color);
+    background-color: var(--accent1-color);
+    font-weight: 700;
+}
+
 
 /* Map Styling */
 .map iframe {

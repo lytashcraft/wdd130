@@ -66,6 +66,10 @@ h2 {
     color: #43BE7D;
 }
 
+.text-center {
+    text-align: center;
+}
+
 h4 {
     height: 3px;
     margin: 40px;
@@ -98,10 +102,10 @@ p {
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza o artigo horizontal e verticalmente */
+    transform: translate(-50%, -50%);
     width: 50%;
     max-width: 900px;
-    background-color: var(--accent1-color-transparent); /*mudar a cor, se desejar */
+    background-color: var(--accent1-color-transparent);
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -110,7 +114,7 @@ p {
 }
 
 .hero h1 article {
-    position: absolute; /*testar*/
+    position: absolute;
     
 }
 
@@ -208,6 +212,8 @@ nav a:link, nav a:visited {
     height: auto;
     border-radius: 5px;
 }
+
+/* Footer */
 
 footer {
     background-color: var(--primary-color);
