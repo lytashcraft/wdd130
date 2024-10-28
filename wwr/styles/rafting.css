@@ -94,6 +94,32 @@ p {
     border-radius: 8px;
 }
 
+.hero article {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o artigo horizontal e verticalmente */
+    width: 50%;
+    max-width: 900px;
+    background-color: var(--accent1-color-transparent); /*mudar a cor, se desejar */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 article {
+    position: absolute; /*testar*/
+    
+}
+
+
+.hero article img {
+    float: right;
+    width: 200px;
+}
+
 h1 {
     position: absolute;
     align-items: center;
@@ -161,6 +187,7 @@ nav a:link, nav a:visited {
     background-color: var(--accent1-color);
     font-weight: 700;
 }
+
 
 .adventure-gallery {
     display: flex;
