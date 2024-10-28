@@ -222,18 +222,16 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .sociallinks {
     display: flex;
-    justify-content: left;
     gap: 10px;
-    padding: 0 1550px;
 }
 
 .sociallinks img {
