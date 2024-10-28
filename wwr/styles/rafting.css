@@ -14,7 +14,7 @@
 
     --paragraph-background-color: var(--secondary-color);
     --nav-background-color: var(--primary-color);
-    --nav-link-color: var(--accent2-color);
+    --nav-link-color: var(--accent3-color);
     --nav-hover-link-color: var(--accent2-color);
     --nav-hover-background-color: var(--primary-color);
 }
@@ -128,7 +128,7 @@ h1 {
     position: absolute;
     align-items: center;
     top: 10%;
-    left: 30%;
+    left: 35%;
     font-size: 3em;
     color: var(--accent3-color);
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
