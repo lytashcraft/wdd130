@@ -208,9 +208,10 @@ article h3 {
 }
 
 table {
-    width: 100%;
+    width: 50%;
+    max-width: 600px;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 th, td {
@@ -233,7 +234,26 @@ tr:hover {
     color: white;
 }
 
+/* contact button */
 
+.contact-button {
+    display: inline-block;
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: var(--accent3-color);
+}
+
+/* footer */
 
 .footer {
     background-color: var(--primary-color);
