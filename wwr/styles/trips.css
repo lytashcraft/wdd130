@@ -134,53 +134,9 @@ h1 {
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
     border-bottom: 2px solid #40271A;
 }
-
-article {
-    position: absolute;
-    bottom: 1px;
-    left: 65%;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 8px;
-    width: 250px;
-}
-
-article img {
-    float: left;
-    margin-right: 2px;
-    width: 10px;
-    border-radius: 8px;
-}
-
-.history-section {
-    padding: 20px;
-    background-color: var(--paragraph-background-color);
-    border-radius: 8px;
-    margin: 20px 0;
-}
-
-.history-container {
-    display: grid;
-    grid-template-columns: 2fr auto 2fr;
-    gap: 20px;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.history-text {
-    font-family: 'Poppins', Arial, sans-serif;
-    color: var(--accent3-color);
-    line-height: 1.6;
-}
-
-.history-image {
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-
+´
 /* menu */
+
 
 nav {
 	text-align: right;
@@ -220,30 +176,66 @@ nav a:link, nav a:visited {
     font-weight: 700;
 }
 
-
-.adventure-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+.adventure-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-.adventure-gallery figure {
-    margin: 10px;
-    text-align: center;
-    flex: 1 1 200px;
-    max-width: 250px;
+article {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
 }
 
-.adventure-gallery img {
+article:hover {
+    transform: scale(1.02);
+}
+
+article img {
     width: 100%;
-    height: auto;
-    border-radius: 5px;
+    height: 150px;
+    object-fit: cover;
 }
 
-/* Footer */
+article h3 {
+    font-size: 1.5em;
+    color: var(--accent2-color);
+    margin: 10px 0;
+}
 
-footer {
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    text-align: left;
+}
+
+th {
+    background-color: var(--accent2-color);
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+tr:hover {
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+
+
+.footer {
     background-color: var(--primary-color);
     padding: 20px 0;
 }
